@@ -1,0 +1,27 @@
+.list{
+  background-color: rgba(0,0,0,0.9);
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 15px 0;
+}
+
+.list p{
+  font-size:large;
+}
+
+.list-bg{
+  /* background-color: rgb(68, 49, 212); */
+  background-color: rgb(196, 98, 98);
+  margin: 0;
+}
+
+.state:hover{
+  cursor: pointer;
+}
+
+.found{
+  font-weight: bolder;
+  color: red;
+}
+
+

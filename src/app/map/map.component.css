@@ -1,0 +1,34 @@
+.found{
+  fill: rgba(255, 60, 120, 0.5);
+}
+
+path:hover, circle:hover {
+  stroke: #002868 !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #002868 !important;
+  cursor: pointer;
+}
+
+.container{
+  text-align: center;
+  width: 100%;
+}
+
+.wrapper{
+  width: 100%;
+  height: 85vh;
+  margin: 0;
+  padding: 0;
+  background-image: url(../../assets/us-flag.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  /* background-color: rgb(68, 49, 212); */
+  background-color: rgb(196, 98, 98);
+}
+
+.shadow{
+  height: 85vh;
+  background-image: radial-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+}

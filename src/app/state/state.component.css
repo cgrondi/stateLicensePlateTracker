@@ -1,0 +1,29 @@
+.state:hover{
+  cursor: pointer;
+}
+
+.state-row{
+  height: 50px;
+  color: whitesmoke;
+}
+.state-col{
+  padding-top: 12px;
+  border-bottom: 1px gray solid;
+}
+
+.found{
+  font-weight: bolder;
+  color: red;
+}
+
+p{
+  font-size: large;
+  width: 30%;
+  margin: auto;
+}
+
+.truck{
+  width: 100px;
+  height: 50px;
+  display: inline;
+}

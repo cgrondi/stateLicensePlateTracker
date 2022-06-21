@@ -1,4 +1,10 @@
-html, body{
+.settingsContainer{
+  height: 85vh;
   /* background-color: rgb(68, 49, 212); */
   background-color: rgb(196, 98, 98);
+  margin: 0;
+}
+
+.myButtons{
+  margin-top: 10vh;
 }

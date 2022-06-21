@@ -1,4 +1,8 @@
-html, body{
+.header{
+  padding-top: 10px;
+  margin: 0;
   /* background-color: rgb(68, 49, 212); */
   background-color: rgb(196, 98, 98);
+  width: 100%;
+  height: 10%;
 }

@@ -1,0 +1,10 @@
+<div class="row state-row">
+  <div class="col-2"></div>
+  <div class="col-1">
+    <img *ngIf="truckFound" class="truck" src="../../assets/truck.gif" alt="truck">
+  </div>
+  <div class="col align-middle state-col">
+    <p class="state align-middle" id="{{name}}" routerLink="/state/{{name}}" [ngClass]="{found: found}">{{name}}</p>
+  </div>
+  <div class="col-3"></div>
+</div>
